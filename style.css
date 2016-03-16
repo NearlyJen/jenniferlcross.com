@@ -143,11 +143,11 @@ p.subtext {
 	color: #313636; 
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
-	background: #8c837d; 
+	background-color: #8c837d; 
 	color: #ffffff; 
 }
 .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { 
-	background: #d5d0d9; 
+	background-color: #d5d0d9; 
 }
 
 .fixed .navbar  { 
@@ -157,11 +157,6 @@ p.subtext {
 .container { 
 	max-width: 1280px; 
 	padding: 40px 180px; 
-}
-
-.tan {
-
-	background-color: #ebe3d9;
 }
 
 .off-white {
@@ -186,6 +181,10 @@ p.subtext {
     margin-right: auto;
     border: 10px solid #8c837d;
 }
+
+hr {
+	border-top: 1px solid #eee9f2 !important;
+	}
 
 
 @media (max-width: 767px) { 
