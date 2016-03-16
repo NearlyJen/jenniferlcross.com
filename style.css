@@ -5,15 +5,24 @@ h1 {
 }
 
 
-h2, h3, h4, h5, h6 {
+h2 {
+    
     font-family: 'Josefin Slab', serif;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 h2 {
+    
     font-size: 54px;
     text-align: center;
+}
+
+h3, h4, h5, h6 {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+    margin-bottom: 10px;
 }
 
 p {
@@ -51,10 +60,6 @@ p.subtext {
     top: 28%;
     z-index: 4;
     text-align: center;
-}
-
-.container {
-    padding: 40px 180px;
 }
 
 #top, .overlay {
@@ -149,6 +154,11 @@ p.subtext {
 	position: fixed; top: 60px; 
 }
 
+.container { 
+	max-width: 1280px; 
+	padding: 40px 180px; 
+}
+
 .tan {
 
 	background-color: #ebe3d9;
@@ -175,4 +185,49 @@ p.subtext {
     margin-left: auto;
     margin-right: auto;
     border: 10px solid #8c837d;
+}
+
+
+@media (max-width: 767px) { 
+	.jumbotron:before {
+		bottom: 100px;
+		left: 20px;
+		right: 20px;
+		top: 20px;		
+	}
+	.jumbotron .container { top: 20%; padding-top: 0px; }
+	.jumbotron .scroll-down { width: 100%; right: 0px; }
+	
+	.navbar  { left: 0px; width: 100%; }
+	.navbar .nav > li { height: 60px; }
+	.navbar .nav > li a { height: 60px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; }
+	
+	.fixed .navbar { top: 0px; }
+	
+	.container { padding: 60px 20px; min-width: 280px; }
+	.hidden-phone { display: none; }
+	
+	#about .row * { text-align: center; }
+	
+	#experience .experience .experience-details > span { display: block; margin-bottom: 6px; }
+	#experience .experience .experience-details .seperator { display: none; }
+
+	#contact { padding-bottom: 60px; }
+	#contact a .icon { float: left; margin-right: 10px; }
+}    
+
+@media only screen and (orientation: portrait) and (max-width: 767px)  {
+    .jumbotron {
+      -webkit-background-size: auto 150%;
+      background-attachment: scroll;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width: 767px)  {
+
+    .jumbotron {
+      -webkit-background-size: 150% auto;
+      background-attachment: scroll;
+    }
+	
+	.jumbotron .lead { display: none; }
 }
