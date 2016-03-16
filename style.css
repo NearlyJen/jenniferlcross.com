@@ -163,3 +163,16 @@ p.subtext {
 
 	background-color: #8c837d;
 }
+
+#contact .subtext {
+
+	color: #ffffff;
+}
+
+.jenimg {
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #8c837d;
+}
