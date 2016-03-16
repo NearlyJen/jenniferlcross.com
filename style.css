@@ -1,0 +1,50 @@
+/* use josefin with Open Sans, Pacifico, Oswald */
+h1 {
+
+	font-family: 'Pacifico', cursive;
+}
+
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p {
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#top {
+
+	background-image: url("images/river.png");
+	border-radius: 0px;
+}
+
+.container .jumbotron, .container-fluid, .jumbotron {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+.jumbotron .container h1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+}
+
+.jumbotron .container > * {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center;
+}
+
