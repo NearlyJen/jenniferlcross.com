@@ -87,7 +87,14 @@ p.subtext {
 }
 
 .jumbotron .scroll-down .glyphicon {
-    color: #313636;
+    color: #f7f2f2;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 20px;
+}
+
+.jumbotron .scroll-down .glyphicon:hover {
+    color: #4b5c8f;
     font-size: 30px;
     padding-right: 2px;
     padding-top: 20px;
