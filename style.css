@@ -11,9 +11,27 @@ h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 
+h2 {
+    font-size: 54px;
+    text-align: center;
+}
+
 p {
 
 	font-family: 'Open Sans', sans-serif;
+}
+
+p.subtext {
+
+	text-align: center;
+	color: #727878;
+}
+
+body {
+
+
+
+
 }
 
 
@@ -47,4 +65,10 @@ p {
     z-index: 4;
     text-align: center;
 }
+
+.container {
+    padding: 40px 180px;
+}
+
+
 
