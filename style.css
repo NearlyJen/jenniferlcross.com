@@ -93,3 +93,52 @@ p.subtext {
     padding-top: 20px;
 }
 
+/* inspiration from http://www.pascalvangemert.nl/ */
+.navbar  { 
+	border: 0px; 
+	background-color: #d5d0d9; 
+	position: absolute; 
+	top: 100%; 
+	right: 5%; 
+	width: 110px; 
+	z-index: 999; 
+}
+.navbar .navbar-collapse { 
+	padding: 0px; 
+	max-height: none;
+	 }
+.navbar .navbar-nav { 
+	float: none; 
+}
+.navbar-nav { 
+	margin: 0px;
+}
+.navbar .nav > li { 
+	display: block; 
+	float: none; 
+	height: 80px;
+} 
+.navbar .nav > li a { 
+	display: block;  
+	height: 80px; 
+	text-align: center; 
+	padding-top: 30px; 
+	font-weight: 600; 
+	color: #FFFFFF; 
+	font-family: "Open Sans", sans-serif;
+}
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { 
+	color: #313636; 
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
+	background: #8c837d; 
+	color: #ffffff; 
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { 
+	background: #d5d0d9; 
+}
+
+.fixed .navbar  { 
+	position: fixed; top: 60px; 
+}
+
