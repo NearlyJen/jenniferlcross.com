@@ -26,19 +26,14 @@ p.subtext {
 	text-align: center;
 	color: #727878;
 }
-
-#top {
-
-	background-image: url("images/river.png");
-	border-radius: 0px;
-}
-
 .container .jumbotron, .container-fluid, .jumbotron {
-
 	padding: 0px;
 	margin: 0px;
 }
 
+.jumbotron {
+	background: no-repeat center right fixed url(images/river.png);
+}
 .jumbotron .container h1 {
     padding-bottom: 20px;
     border-bottom: 1px solid #FFFFFF;
@@ -62,5 +57,88 @@ p.subtext {
     padding: 40px 180px;
 }
 
+#top, .overlay {
 
+	height: 927px;
+}
+
+.jumbotron .overlay {
+    background-color: #444444;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.4;
+    filter: alpha(opacity=75);
+    z-index: 2;
+}
+
+.jumbotron .scroll-down {
+    height: 80px;
+    width: 110px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-color: #d5d0d9;
+    text-align: center;
+    z-index: 6;
+}
+
+.jumbotron .scroll-down .glyphicon {
+    color: #313636;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 20px;
+}
+
+/* inspiration from http://www.pascalvangemert.nl/ */
+.navbar  { 
+	border: 0px; 
+	background-color: #d5d0d9; 
+	position: absolute; 
+	top: 100%; 
+	right: 5%; 
+	width: 110px; 
+	z-index: 999; 
+}
+.navbar .navbar-collapse { 
+	padding: 0px; 
+	max-height: none;
+	 }
+.navbar .navbar-nav { 
+	float: none; 
+}
+.navbar-nav { 
+	margin: 0px;
+}
+.navbar .nav > li { 
+	display: block; 
+	float: none; 
+	height: 80px;
+} 
+.navbar .nav > li a { 
+	display: block;  
+	height: 80px; 
+	text-align: center; 
+	padding-top: 30px; 
+	font-weight: 600; 
+	color: #FFFFFF; 
+	font-family: "Open Sans", sans-serif;
+}
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { 
+	color: #313636; 
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
+	background: #8c837d; 
+	color: #ffffff; 
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { 
+	background: #d5d0d9; 
+}
+
+.fixed .navbar  { 
+	position: fixed; top: 60px; 
+}
 
