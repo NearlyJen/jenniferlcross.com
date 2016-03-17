@@ -1,4 +1,4 @@
-/* use josefin with Open Sans, Pacifico, Oswald */
+/* Adding fonts: use josefin with Open Sans, Pacifico, Oswald */
 h1 {
 
 	font-family: 'Pacifico', cursive;
@@ -35,15 +35,20 @@ p.subtext {
 	text-align: center;
 	color: #727878;
 }
+
 .container .jumbotron, .container-fluid, .jumbotron {
+
 	padding: 0px;
 	margin: 0px;
 }
 
 .jumbotron {
+
 	background: no-repeat center right fixed url(images/river.jpg);
 }
+
 .jumbotron .container h1 {
+
     padding-bottom: 20px;
     border-bottom: 1px solid #FFFFFF;
     border-bottom-color: rgba(255,255,255,0.35);
@@ -51,11 +56,13 @@ p.subtext {
 }
 
 .jumbotron .container > * {
+
     text-align: center;
     color: #FFFFFF;
 }
 
 .jumbotron .container {
+
     position: relative;
     top: 28%;
     z-index: 4;
@@ -68,6 +75,7 @@ p.subtext {
 }
 
 .jumbotron .overlay {
+
     background-color: #444444;
     position: absolute;
     top: 0px;
@@ -80,6 +88,7 @@ p.subtext {
 }
 
 .jumbotron .scroll-down {
+
     height: 80px;
     width: 110px;
     display: block;
@@ -92,6 +101,7 @@ p.subtext {
 }
 
 .jumbotron .scroll-down .glyphicon {
+
     color: #f7f2f2;
     font-size: 30px;
     padding-right: 2px;
@@ -99,6 +109,7 @@ p.subtext {
 }
 
 .jumbotron .scroll-down .glyphicon:hover {
+
     color: #4b5c8f;
     font-size: 30px;
     padding-right: 2px;
@@ -107,6 +118,7 @@ p.subtext {
 
 /* inspiration from http://www.pascalvangemert.nl/ */
 .navbar  { 
+
 	border: 0px; 
 	background-color: #d5d0d9; 
 	position: absolute; 
@@ -115,22 +127,32 @@ p.subtext {
 	width: 110px; 
 	z-index: 999; 
 }
+
 .navbar .navbar-collapse { 
+
 	padding: 0px; 
 	max-height: none;
 	 }
+
 .navbar .navbar-nav { 
+
 	float: none; 
 }
+
 .navbar-nav { 
+
 	margin: 0px;
 }
+
 .navbar .nav > li { 
+
 	display: block; 
 	float: none; 
 	height: 80px;
 } 
+
 .navbar .nav > li a { 
+
 	display: block;  
 	height: 80px; 
 	text-align: center; 
@@ -139,22 +161,30 @@ p.subtext {
 	color: #FFFFFF; 
 	font-family: "Open Sans", sans-serif;
 }
+
 .navbar .nav > li a:hover, .navbar .nav > li a:focus { 
+
 	color: #313636; 
 }
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
+	
 	background-color: #8c837d; 
 	color: #ffffff; 
 }
+
 .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { 
+	
 	background-color: #d5d0d9; 
 }
 
 .fixed .navbar  { 
+	
 	position: fixed; top: 60px; 
 }
 
 .container { 
+	
 	max-width: 1280px; 
 	padding: 40px 180px; 
 }
@@ -175,6 +205,7 @@ p.subtext {
 }
 
 .jenimg {
+	
 	border-radius: 50%;
 	display: block;
     margin-left: auto;
@@ -183,10 +214,11 @@ p.subtext {
 }
 
 hr {
+	
 	border-top: 1px solid #eee9f2 !important;
-	}
+}
 
-
+/* Media Queries!! */
 @media (max-width: 767px) { 
 	.jumbotron:before {
 		bottom: 100px;
@@ -194,25 +226,61 @@ hr {
 		right: 20px;
 		top: 20px;		
 	}
-	.jumbotron .container { top: 20%; padding-top: 0px; }
-	.jumbotron .scroll-down { width: 100%; right: 0px; }
+
+	.jumbotron .container { 
+		top: 20%; 
+		padding-top: 0px; 
+	}
+
+	.jumbotron .scroll-down { 
+		width: 100%; 
+		right: 0px; 
+	}
 	
-	.navbar  { left: 0px; width: 100%; }
-	.navbar .nav > li { height: 60px; }
-	.navbar .nav > li a { height: 60px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; }
+	.navbar  { 
+		left: 0px; 
+		width: 100%; 
+	}
+
+	.navbar .nav > li { 
+		height: 60px; 
+	}
+
+	.navbar .nav > li a { 
+		height: 60px; 
+		text-align: center; 
+		padding-top: 20px; 
+		font-weight: 600; 
+		color: #FFFFFF; 
+	}
 	
-	.fixed .navbar { top: 0px; }
+	.fixed .navbar { 
+		top: 0px; 
+	}
 	
-	.container { padding: 60px 20px; min-width: 280px; }
+	.container { 
+		padding: 60px 20px; 
+		min-width: 280px; 
+	}
+
+	/* not sure what this class is */
 	.hidden-phone { display: none; }
 	
-	#about .row * { text-align: center; }
+	#about .row * { 
+		text-align: center; 
+	}
 	
-	#experience .experience .experience-details > span { display: block; margin-bottom: 6px; }
-	#experience .experience .experience-details .seperator { display: none; }
+	/*#experience .experience .experience-details > span { display: block; margin-bottom: 6px; }
+	#experience .experience .experience-details .seperator { display: none; } */
 
-	#contact { padding-bottom: 60px; }
-	#contact a .icon { float: left; margin-right: 10px; }
+	#contact { 
+		padding-bottom: 60px; 
+	}
+
+	#contact a .icon { 
+		float: left; 
+		margin-right: 10px; 
+	}
 }    
 
 @media only screen and (orientation: portrait) and (max-width: 767px)  {
