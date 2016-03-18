@@ -165,13 +165,13 @@ h4.subtext {
 
 .navbar .nav > li a:hover, .navbar .nav > li a:focus { 
 
-	color: #7f90b8; 
+	color: #ffffff; 
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
 
 	background-color: #373d5c; 
-	color: #7f90b8; 
+	color: #ffffff !important;
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { 
