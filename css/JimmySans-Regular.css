@@ -1,0 +1,12 @@
+/* Webfont: JimmySans-Regular */@font-face {
+    font-family: 'JimmySans';
+    src: url('JimmySans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('JimmySans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('JimmySans-Regular.woff') format('woff'), /* Modern Browsers */
+         url('JimmySans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('JimmySans-Regular.svg#JimmySans-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
