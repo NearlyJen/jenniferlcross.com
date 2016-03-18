@@ -1,0 +1,12 @@
+/* Webfont: JimmyScript-Bold */@font-face {
+    font-family: 'JimmyScript';
+    src: url('JimmyScript-Bold.eot'); /* IE9 Compat Modes */
+    src: url('JimmyScript-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('JimmyScript-Bold.woff') format('woff'), /* Modern Browsers */
+         url('JimmyScript-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('JimmyScript-Bold.svg#JimmyScript-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

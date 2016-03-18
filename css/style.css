@@ -1,0 +1,303 @@
+/* Adding fonts: use josefin with Open Sans, Pacifico, Oswald */
+h1 {
+
+	font-family: 'JimmyScript', cursive;
+	font-size: 2em;
+}
+
+
+h2 {
+    
+    font-family: 'JimmyScript', serif;
+    margin-bottom: 10px;
+    font-size: 54px;
+    text-align: center;
+}
+
+
+h3, h4  {
+	
+	font-family: 'JimmySans', sans-serif;
+    margin-bottom: 10px;
+}
+
+p, h5, h6 {
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.row h4 {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h4.subtext {
+
+	text-align: center;
+	color: #706a68;
+}
+
+.container .jumbotron, .container-fluid, .jumbotron {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+.jumbotron {
+
+	background: no-repeat center right fixed url("http://jenniferlcross.com/images/river.jpg");
+}
+
+.jumbotron .container h1 {
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+}
+
+.jumbotron .container > * {
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.jumbotron .container {
+
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center;
+}
+
+#top, .overlay {
+
+	height: 927px;
+}
+
+.jumbotron .overlay {
+
+    background-color: #444444;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.4;
+    filter: alpha(opacity=75);
+    z-index: 2;
+}
+
+.jumbotron .scroll-down {
+
+    height: 80px;
+    width: 110px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-color: #d5d0d9;
+    text-align: center;
+    z-index: 6;
+}
+
+.jumbotron .scroll-down .glyphicon {
+
+    color: #f7f2f2;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 20px;
+}
+
+.jumbotron .scroll-down .glyphicon:hover {
+
+    color: #4b5c8f;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 20px;
+}
+
+/* inspiration from http://www.pascalvangemert.nl/ */
+.navbar  { 
+
+	border: 0px; 
+	background-color: #373d5c; 
+	position: absolute; 
+	top: 100%; 
+	right: 5%; 
+	width: 110px; 
+	z-index: 999; 
+}
+
+.navbar .navbar-collapse { 
+
+	padding: 0px; 
+	max-height: none;
+	 }
+
+.navbar .navbar-nav { 
+
+	float: none; 
+}
+
+.navbar-nav { 
+
+	margin: 0px;
+}
+
+.navbar .nav > li { 
+
+	display: block; 
+	float: none; 
+	height: 80px;
+} 
+
+.navbar .nav > li a { 
+
+	display: block;  
+	height: 80px; 
+	text-align: center; 
+	padding-top: 30px; 
+	font-weight: 600; 
+	color: #FFFFFF; 
+	font-family: "Open Sans", sans-serif;
+}
+
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { 
+
+	color: #7f90b8; 
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
+
+	background-color: #373d5c; 
+	color: #7f90b8; 
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { 
+	
+	background-color: #373d5c; 
+}
+
+.fixed .navbar  { 
+	
+	position: fixed; top: 60px; 
+}
+
+.container { 
+	
+	max-width: 1280px; 
+	padding: 40px 180px; 
+}
+
+.off-white {
+
+	background-color: #dce0e0;
+}
+
+.darker {
+
+	background-color: #373d5c;
+}
+
+#contact .subtext, #contact h2 {
+
+	color: #d7dbd7;
+}
+
+.jenimg {
+	
+	background-color: #373d5c;
+	border-radius: 50%;
+	display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #373d5c;
+}
+
+hr {
+	
+	border-top: 1px solid #d7dbd7 !important;
+}
+
+/* Media Queries!! */
+@media (max-width: 767px) { 
+	.jumbotron:before {
+		bottom: 100px;
+		left: 20px;
+		right: 20px;
+		top: 20px;		
+	}
+
+	.jumbotron .container { 
+		top: 20%; 
+		padding-top: 0px; 
+	}
+
+	.jumbotron .scroll-down { 
+		width: 100%; 
+		right: 0px; 
+	}
+	
+	.navbar  { 
+		left: 0px; 
+		width: 100%; 
+	}
+
+	.navbar .nav > li { 
+		height: 60px; 
+	}
+
+	.navbar .nav > li a { 
+		height: 60px; 
+		text-align: center; 
+		padding-top: 20px; 
+		font-weight: 600; 
+		color: #FFFFFF; 
+	}
+	
+	.fixed .navbar { 
+		top: 0px; 
+	}
+	
+	.container { 
+		padding: 60px 20px; 
+		min-width: 280px; 
+	}
+
+	/* not sure what this class is */
+	.hidden-phone { display: none; }
+	
+	#about .row * { 
+		text-align: center; 
+	}
+	
+	/*#experience .experience .experience-details > span { display: block; margin-bottom: 6px; }
+	#experience .experience .experience-details .seperator { display: none; } */
+
+	#contact { 
+		padding-bottom: 60px; 
+	}
+
+	#contact a .icon { 
+		float: left; 
+		margin-right: 10px; 
+	}
+}    
+
+@media only screen and (orientation: portrait) and (max-width: 767px)  {
+    .jumbotron {
+      -webkit-background-size: auto 150%;
+      background-attachment: scroll;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width: 767px)  {
+
+    .jumbotron {
+      -webkit-background-size: 150% auto;
+      background-attachment: scroll;
+    }
+	
+	.jumbotron .lead { display: none; }
+}
