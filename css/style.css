@@ -1,4 +1,4 @@
-/* Adding fonts: use josefin with Open Sans, Pacifico, Oswald */
+/* Custom fonts and sizing */
 h1 {
 
 	font-family: 'JimmyScript', cursive;
@@ -37,6 +37,7 @@ h4.subtext {
 	color: #706a68;
 }
 
+/* attempts to style the main image and overlay */
 .container .jumbotron, .container-fluid, .jumbotron {
 
 	padding: 0px;
@@ -59,7 +60,7 @@ h4.subtext {
 .jumbotron .container > * {
 
     text-align: center;
-    color: #FFFFFF;
+    color: #FFFFFF;   
 }
 
 .jumbotron .container {
@@ -88,35 +89,6 @@ h4.subtext {
     z-index: 2;
 }
 
-.jumbotron .scroll-down {
-
-    height: 80px;
-    width: 110px;
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    right: 5%;
-    background-color: #d5d0d9;
-    text-align: center;
-    z-index: 6;
-}
-
-.jumbotron .scroll-down .glyphicon {
-
-    color: #f7f2f2;
-    font-size: 30px;
-    padding-right: 2px;
-    padding-top: 20px;
-}
-
-.jumbotron .scroll-down .glyphicon:hover {
-
-    color: #4b5c8f;
-    font-size: 30px;
-    padding-right: 2px;
-    padding-top: 20px;
-}
-
 /* inspiration from http://www.pascalvangemert.nl/ */
 .navbar  { 
 
@@ -133,7 +105,7 @@ h4.subtext {
 
 	padding: 0px; 
 	max-height: none;
-	 }
+}
 
 .navbar .navbar-nav { 
 
@@ -181,13 +153,24 @@ h4.subtext {
 
 .fixed .navbar  { 
 	
-	position: fixed; top: 60px; 
+	position: fixed; top: 90px; 
 }
 
-.container { 
-	
-	max-width: 1280px; 
+.container {
+
+    max-width: 1280px; 
 	padding: 40px 180px; 
+}
+
+.jenimg {
+	
+	background-color: #373d5c;
+	border-radius: 50%;
+	display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #373d5c;
 }
 
 .off-white {
@@ -205,16 +188,6 @@ h4.subtext {
 	color: #d7dbd7;
 }
 
-.jenimg {
-	
-	background-color: #373d5c;
-	border-radius: 50%;
-	display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid #373d5c;
-}
 
 hr {
 	
@@ -225,6 +198,11 @@ hr {
 
 	padding-left: 10px;
     padding-right: 10px;
+}
+
+.plus {
+
+	font-size: xx-large;
 }
 
 /* Media Queries!! */
