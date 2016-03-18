@@ -221,6 +221,12 @@ hr {
 	border-top: 1px solid #d7dbd7 !important;
 }
 
+.glyphicon {
+
+	padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* Media Queries!! */
 @media (max-width: 767px) { 
 	.jumbotron:before {
