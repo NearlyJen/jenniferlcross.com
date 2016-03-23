@@ -200,9 +200,14 @@ hr {
     padding-right: 10px;
 }
 
-.plus {
 
+.plus {
 	font-size: xx-large;
+}
+
+.copyright {
+	color: #999;
+	padding-top: 50px;
 }
 
 /* Media Queries!! */
