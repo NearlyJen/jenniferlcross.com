@@ -188,6 +188,21 @@ h4.subtext {
 	color: #d7dbd7;
 }
 
+.jenimg {
+	
+	shape-outside: circle(50%);
+    width: 220px;
+    height: 220px;
+    float: left;
+    background-color: #373d5c;
+	border-radius: 50%;
+    margin: 20px;
+    border: 5px solid #373d5c;
+}
+
+.about {
+	margin-top: 40px;
+}
 
 hr {
 	
