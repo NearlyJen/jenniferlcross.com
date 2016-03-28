@@ -176,11 +176,12 @@ h4.subtext {
 	color: #d7dbd7;
 }
 
+/* about me image...not quite right yet */
 .jenimg {
 	
 	shape-outside: circle(50%);
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     float: left;
     background-color: #373d5c;
 	border-radius: 50%;
