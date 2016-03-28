@@ -86,8 +86,7 @@ h4.subtext {
     filter: alpha(opacity=75);
     z-index: 2;
 }
-
-/* inspiration from http://www.pascalvangemert.nl/ */
+/* navbar styling */
 .navbar  { 
 
 	border: 0px; 
@@ -154,23 +153,14 @@ h4.subtext {
 	position: fixed; top: 90px; 
 }
 
+/* I will comment in what this one does when i go look and remember what it's for */
 .container {
 
     max-width: 1280px; 
 	padding: 40px 180px; 
 }
 
-.jenimg {
-	
-	background-color: #373d5c;
-	border-radius: 50%;
-	display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid #373d5c;
-}
-
+/* section backgrounds*/
 .off-white {
 
 	background-color: #dce0e0;
