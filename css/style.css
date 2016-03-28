@@ -83,7 +83,6 @@ h4.subtext {
     left: 0px;
     right: 0px;
     opacity: 0.4;
-    filter: alpha(opacity=75);
     z-index: 2;
 }
 /* navbar styling */
@@ -273,7 +272,7 @@ hr {
 		margin-right: 10px; 
 	}
 }    
-
+/* these are only a test, not sure the webkit stuff is neecssary */
 @media only screen and (orientation: portrait) and (max-width: 767px)  {
     .jumbotron {
       -webkit-background-size: auto 150%;
