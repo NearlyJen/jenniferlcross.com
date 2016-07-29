@@ -1,24 +1,22 @@
 
 <!-- Problems:
 1) not responsive after current update
-2) still no portfolio
 3) now i don't like the colors -->
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-  		<meta charset="UTF-8">
-  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
  		<title>Jennifer Cross | CV</title>
  		<!-- Favicon-->
  		<link rel="icon" type="image/png" href="images/favicon.png">
-        
+
         <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		
 
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -33,7 +31,7 @@
 		<link rel="stylesheet" type="text/css" href="css/portfolio.jquery.css">
 		<script src="portfolio.jquery.js"></script>
 		<script src="typed.js"></script>
-		
+
 		<!-- closes the mobile navbar on click  -->
 		<script type="text/javascript">
 			$(document).ready(function () {
@@ -60,7 +58,7 @@
 			      $('html, body').animate({
 			        scrollTop: $(hash).offset().top
 			      }, 800, function(){
-			   
+
 			        // Add hash (#) to URL when done scrolling (default click behavior)
 			        window.location.hash = hash;
 			      });
@@ -69,23 +67,23 @@
 			});
 		</script>
 		<script>
-            $(document).ready(function() {
-                $('.thumbs').portfolio({
-                    cols: 2,
-                    transition: 'slideDown'
-                });
-            });
-        </script>
+      $(document).ready(function() {
+        $('.thumbs').portfolio({
+          cols: 2,
+          transition: 'slideDown'
+        });
+      });
+    </script>
 		<script>
-		    $(function(){
-		        $("#top h3").typed({
-		            strings: ["^1000Web Developer", "^1000Librarian", "^1000Part-Time Vagabond", "^1000Nice to meet you.^3000"],
-		            typeSpeed: 40, 
-		            loop: true,
-		            backSpeed: 30,
-		            showCursor: false
-		        });
+		  $(function(){
+		    $("#top h3").typed({
+		      strings: ["^1000Web Developer", "^1000Librarian", "^1000Part-Time Vagabond", "^1000Nice to meet you.^3000"],
+		      typeSpeed: 40,
+		      loop: true,
+		      backSpeed: 30,
+		      showCursor: false
 		    });
+		  });
 		</script>
 	</head>
 	<body data-spy="scroll" data-target="#navbar-jen" class="fixed">
@@ -105,7 +103,7 @@
 				<div class="about">
 					<h4>ABOUT ME</h4>
 					<p>I define myself less by what I do than what it is I am searching for...or rather, that I search. I search for people who make me smile, or need my help, or both. I search for places where I feel most myself, for perfect poutine, a good night's sleep, and a way to keep my son this age forever.</p>
-					<h4>STATUS</h4> 
+					<h4>STATUS</h4>
 					<p> I've worked in teaching, web design/web-mistressing, librarianship, and event planning. I've recently completed studying full-stack web development at DevBootcamp and will be looking for work in the Chicago area, summer of 2016.</p>
 				</div>
 			</div>
@@ -119,41 +117,41 @@
 							<h4>Eventually...</h4><p>this list will be full-up with amazing apps and websites. Really! For now, here are just a few of the things I've worked on (besides this site) which have served to make me want to learn more and get better.</p> <p>You can also browse some of my flailing on <a href="https://github.com/NearlyJen" target="_blank">GitHub.</a> </p>
 						</div>
 						<ul class="thumbs">
-				            <li><a href="#thumb1" class="thumbnail" style="background-image: url('images/scout.jpg')">
-				                <span class="description">A new-tab Chrome extension</span></a>
-				            </li>
-				            <li><a href="#thumb2" class="thumbnail" style="background-image: url('images/psis.gif')">
-				                <span class="description">Puget Sound Independent Schools Website</span></a>
-				            </li>
-				            <li><a href="#thumb3" class="thumbnail" style="background-image: url('images/tedx.gif')">
-				                <span class="description">TEDxEastsidePrep Website</span></a>
-				            </li>
-				            <li><a href="#thumb4" class="thumbnail" style="background-image: url('images/eps.JPG')">
-				                <span class="description">Eastside Preparatory School Website</span></a>
-				            </li>
-				        </ul>
-				        <div class="portfolio-content">
-				            <div id="thumb1">
-				                <div class="media"><iframe width="444" height="250" src="https://www.youtube.com/embed/_52Phak8UR8" frameborder="0" allowfullscreen></iframe></div>
-				                <h3>Scout</h3>
-				                <p>Scout is a new-tab Chrome extension aimed at keeping travel dreams in the forefront of day-to-day online activities. This was a created as a group final project while attending DevBootcamp, 2016.</p>
-				                <a href="https://github.com/emritcey/scout" target="_blank" class="btn btn-default">GitHub </a> <a href="https://chrome.google.com/webstore/detail/scout/ghfeldheieocmhflgclfkeinlgmncepc" target="_blank" class="btn btn-default">Chrome Store</a>
-				            </div>
-				            <div id="thumb2">
-				                <div class="media"><img src="images/psis.gif" alt="Puget Sound Independent Schools Website"></div>
-				                <h3>PSIS</h3>
-				                <p>At the request of PSIS, I designed and built this WordPress site as a low-maintenance source of information for parents looking at independent schools in the greater Seattle area.</p>
-				            </div>
-				            <div id="thumb3">
-				                <div class="media"><img src="images/tedx.gif" alt="TEDxEastsidePrep Website"></div>
-				                <h3>TEDxEastsidePrep</h3>
-				                <p>As the long-time co-organizer of this conference, I also designed, developed, and maintained our conference website and TED.com pages.</p>
-				            </div>
-				            <div id="thumb4">
-				                <div class="media"><img src="images/eps.JPG" alt="EastsidePrep Website"></div>
-				                <h3>EastsidePrep</h3>
-				                <p>The main EastsidePrep website was just one of dozens that I designed, created, and maintained for the school between 2011 and 2015.</p>
-				            </div>
+				      <li><a href="#thumb1" class="thumbnail" style="background-image: url('images/scout.jpg')">
+				        <span class="description">A new-tab Chrome extension</span></a>
+				      </li>
+				      <li><a href="#thumb2" class="thumbnail" style="background-image: url('images/psis.gif')">
+				        <span class="description">Puget Sound Independent Schools Website</span></a>
+				      </li>
+	            <li><a href="#thumb3" class="thumbnail" style="background-image: url('images/tedx.gif')">
+	                <span class="description">TEDxEastsidePrep Website</span></a>
+	            </li>
+	            <li><a href="#thumb4" class="thumbnail" style="background-image: url('images/eps.JPG')">
+	                <span class="description">Eastside Preparatory School Website</span></a>
+	            </li>
+				    </ul>
+		        <div class="portfolio-content">
+	            <div id="thumb1">
+                <div class="media"><iframe width="444" height="250" src="https://www.youtube.com/embed/_52Phak8UR8" frameborder="0" allowfullscreen></iframe></div>
+                <h3>Scout</h3>
+                <p>Scout is a new-tab Chrome extension aimed at keeping travel dreams in the forefront of day-to-day online activities. This was a created as a group final project while attending DevBootcamp, 2016.</p>
+                <a href="https://github.com/emritcey/scout" target="_blank" class="btn btn-default">GitHub </a> <a href="https://chrome.google.com/webstore/detail/scout/ghfeldheieocmhflgclfkeinlgmncepc" target="_blank" class="btn btn-default">Chrome Store</a>
+	            </div>
+	            <div id="thumb2">
+                <div class="media"><img src="images/psis.gif" alt="Puget Sound Independent Schools Website"></div>
+                <h3>PSIS</h3>
+                <p>At the request of PSIS, I designed and built this WordPress site as a low-maintenance source of information for parents looking at independent schools in the greater Seattle area.</p>
+	            </div>
+	            <div id="thumb3">
+                <div class="media"><img src="images/tedx.gif" alt="TEDxEastsidePrep Website"></div>
+                <h3>TEDxEastsidePrep</h3>
+                <p>As the long-time co-organizer of this conference, I also designed, developed, and maintained our conference website and TED.com pages.</p>
+	            </div>
+	            <div id="thumb4">
+                <div class="media"><img src="images/eps.JPG" alt="EastsidePrep Website"></div>
+                <h3>EastsidePrep</h3>
+                <p>The main EastsidePrep website was just one of dozens that I designed, created, and maintained for the school between 2011 and 2015.</p>
+	            </div>
 						</div>
 					</div>
 				</div>
@@ -163,81 +161,81 @@
 				<h4 class="subtext">People I've worked with over the last decade.</h4>
 				<hr>
 				<ul class="timeline">
-			        <li>
-		              <div class="timeline-item">
-		                <h4>Escuela Campo Alegre</h4>
-						<h5>2015 - 2016</h5>
-		              </div>
-		              <div class="timeline-description">
-		                <h4>Technology Teacher</h4>
-		                <h5><span class="glyphicon glyphicon-map-marker"></span>Caracas,Venezuela</h5>
-						<ul>
-							<li>Taught middle and high school web design and technology courses</li>
-							<li>Provided on-demand tech support to the school community</li>
-							<li>Supported and educated faculty in technology use and integration</li>
-						</ul>
-		              </div>
-		            </li>
-		            <li>
-		              <div class="timeline-item">
-		                <h4>Eastside Preparatory School</h4>
-						<h5>2011 - 2015</h5>
-		              </div>
-		              <div class="timeline-description">
-		                <h4>Web Developer, Technology Teacher</h4>
-		                <h5><span class="glyphicon glyphicon-map-marker"></span>Kirkland, WA</h5>
-						<ul>
-							<li>Designed, built, and managed the school WordPress multi-site ecosystem</li>
-							<li>Taught middle and high school web design and technology courses</li>
-							<li>Provided on-demand tech support to the school community</li>
-							<li>Led summer trips and taught camps in Programming and the Makerspace</li>
-						</ul>
-		              </div>
-		            </li>
-		            <li>
-		              <div class="timeline-item">
-		                <h4>TEDxEastsidePrep</h4>
-						<h5>2011 - 2015</h5>
-		              </div>
-		              <div class="timeline-description">
-		                <h4>Event Co-Organizer, Web Developer</h4>
-		                <h5><span class="glyphicon glyphicon-map-marker"></span>Seattle, WA</h5>
-						<h5><a href="https://www.ted.com/profiles/844882" target="_blank" ><span class="glyphicon glyphicon-link"></span><span class="glyphtext">TED Profile</span></a></h5>
-						<ul>
-							<li>Planned, organized, and delivered an annually “sold-out” professional development conference for educators</li>
-							<li>Created and managed web and social media presence</li>
-						</ul>
-		              </div>
-		            </li>
-		            <li>
-		              <div class="timeline-item">
-		                <h4>The French American School of Puget Sound</h4>
-						<h5>2008 - 2010</h5>
-		              </div>
-		              <div class="timeline-description">
-		                <h4>School Librarian, Technology Support</h4>
-		                <h5><span class="glyphicon glyphicon-map-marker"></span>Mercer Island, WA</h5>
-						<ul>
-							<li>Standardized the physical and database organization of a large bilingual library collection</li>
-							<li>Supported and educated faculty in technology use and integration</li>
-						</ul>
-		              </div>
-		            </li>
-		            <li>
-		              <div class="timeline-item">
-		                <h4>New Orleans Public Schools</h4>
-						<h5>2006 - 2008</h5>
-		              </div>
-		              <div class="timeline-description">
-		                <h4>School Librarian, Technology Teacher</h4>
-		                <h5><span class="glyphicon glyphicon-map-marker"></span>New Orleans, LA</h5>
-						<ul>
-							<li>Taught 650+ students in weekly library and technology classes</li>
-							<li>Rebuilt library database after Katrina-caused total loss of data</li>
-						</ul>
-		              </div>
-		            </li>
-			    </ul>
+	        <li>
+            <div class="timeline-item">
+              <h4>Escuela Campo Alegre</h4>
+							<h5>2015 - 2016</h5>
+            </div>
+            <div class="timeline-description">
+              <h4>Technology Teacher</h4>
+              <h5><span class="glyphicon glyphicon-map-marker"></span>Caracas,Venezuela</h5>
+							<ul>
+								<li>Taught middle and high school web design and technology courses</li>
+								<li>Provided on-demand tech support to the school community</li>
+								<li>Supported and educated faculty in technology use and integration</li>
+							</ul>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-item">
+              <h4>Eastside Preparatory School</h4>
+							<h5>2011 - 2015</h5>
+            </div>
+            <div class="timeline-description">
+              <h4>Web Developer, Technology Teacher</h4>
+              <h5><span class="glyphicon glyphicon-map-marker"></span>Kirkland, WA</h5>
+							<ul>
+								<li>Designed, built, and managed the school WordPress multi-site ecosystem</li>
+								<li>Taught middle and high school web design and technology courses</li>
+								<li>Provided on-demand tech support to the school community</li>
+								<li>Led summer trips and taught camps in Programming and the Makerspace</li>
+							</ul>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-item">
+              <h4>TEDxEastsidePrep</h4>
+							<h5>2011 - 2015</h5>
+            </div>
+            <div class="timeline-description">
+              <h4>Event Co-Organizer, Web Developer</h4>
+              <h5><span class="glyphicon glyphicon-map-marker"></span>Seattle, WA</h5>
+							<h5><a href="https://www.ted.com/profiles/844882" target="_blank" ><span class="glyphicon glyphicon-link"></span><span class="glyphtext">TED Profile</span></a></h5>
+							<ul>
+								<li>Planned, organized, and delivered an annually “sold-out” professional development conference for educators</li>
+								<li>Created and managed web and social media presence</li>
+							</ul>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-item">
+              <h4>The French American School of Puget Sound</h4>
+							<h5>2008 - 2010</h5>
+            </div>
+            <div class="timeline-description">
+              <h4>School Librarian, Technology Support</h4>
+              <h5><span class="glyphicon glyphicon-map-marker"></span>Mercer Island, WA</h5>
+							<ul>
+								<li>Standardized the physical and database organization of a large bilingual library collection</li>
+								<li>Supported and educated faculty in technology use and integration</li>
+							</ul>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-item">
+              <h4>New Orleans Public Schools</h4>
+							<h5>2006 - 2008</h5>
+            </div>
+            <div class="timeline-description">
+              <h4>School Librarian, Technology Teacher</h4>
+              <h5><span class="glyphicon glyphicon-map-marker"></span>New Orleans, LA</h5>
+							<ul>
+								<li>Taught 650+ students in weekly library and technology classes</li>
+								<li>Rebuilt library database after Katrina-caused total loss of data</li>
+							</ul>
+            </div>
+          </li>
+			  </ul>
 			</div>
 			<div>
 				<div class="container" id="education">
@@ -245,61 +243,61 @@
 					<h4 class="subtext">I liked school. So I kept on going.</h4>
 					<hr>
 					<ul class="timeline">
-			            <li>
-			              <div class="timeline-item">
-			                <h4>Dev Bootcamp</h4>
-			              </div>
-			              <div class="timeline-description">
-			                <h4>Full-Stack Web Development</h4>
-			                <p>Dev Bootcamp is a 19-week immersive curriculum focusing on Ruby, JavaScript, Ruby on Rails, common JavaScript libraries, SQL, HTML and CSS, as well as pair programming, agile and test-driven development. The program also integrates team skills like communication, empathy and effective feedback.</p>
-			              </div>
-			            </li>
-			            <li>
-			              <div class="timeline-item">
-			                <h4>Texas Woman's University</h4>
-			              </div>
-			              <div class="timeline-description">
-			                <h4>Master's Degree in Library & Information Science</h4>
-			                <p>Studied information architecture and information seeking behaviors in both digital and traditional service arenas. </p>
-			                <ul>
-								<li>Beta Phi Mu International Honor Society</li>
-								<li>Golden Key International Honor Society</li>
-							</ul>
-						</div>
-			            </li>
-			            <li>
-			              <div class="timeline-item">
-			                <h4>ITI - Information Technology Institute</h4>
-			              </div>
-			              <div class="timeline-description">
-			                <h4>Post-Graduate Diploma In Applied Information Technology</h4>
-			                <p>ITI is what Bootcamps looked like 15 years ago. Full-time. 9 month, post graduate program in software and database development, and project management. </p>
-			              </div>
-			            </li>
-			            <li>
-			              <div class="timeline-item">
-			                <h4>University of Colorado Law School</h4>
-			              </div>
-			              <div class="timeline-description">
-			                <h4>J.D. (incomplete)</h4>
-			                <p>I got halfway through law school and decided being a whitewater guide was more what I was looking for. I mention it because it was one of the best decisions I ever made! Sometimes, you need to quit. </p>
-			              </div>
-			            </li>
-			            <li>
-			              <div class="timeline-item">
-			                <h4>University of Illinois</h4>
-			              </div>
-			              <div class="timeline-description">
-			                <h4>B.A. in Creative Writing</h4>
-							<ul>
-								<li>Phi Kappa Phi National Honor Society</li>
-								<li>Golden Key International Honor Society</li>
-							</ul>
-			              </div>
-			            </li>
-			          </ul>
-			        </div>
-			    </div>
+            <li>
+              <div class="timeline-item">
+                <h4>Dev Bootcamp</h4>
+              </div>
+              <div class="timeline-description">
+                <h4>Full-Stack Web Development</h4>
+                <p>Dev Bootcamp is a 19-week immersive curriculum focusing on Ruby, JavaScript, Ruby on Rails, common JavaScript libraries, SQL, HTML and CSS, as well as pair programming, agile and test-driven development. The program also integrates team skills like communication, empathy and effective feedback.</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-item">
+                <h4>Texas Woman's University</h4>
+              </div>
+              <div class="timeline-description">
+                <h4>Master's Degree in Library & Information Science</h4>
+                <p>Studied information architecture and information seeking behaviors in both digital and traditional service arenas. </p>
+                <ul>
+									<li>Beta Phi Mu International Honor Society</li>
+									<li>Golden Key International Honor Society</li>
+								</ul>
+							</div>
+            </li>
+            <li>
+              <div class="timeline-item">
+                <h4>ITI - Information Technology Institute</h4>
+              </div>
+              <div class="timeline-description">
+                <h4>Post-Graduate Diploma In Applied Information Technology</h4>
+                <p>ITI is what Bootcamps looked like 15 years ago. Full-time. 9 month, post graduate program in software and database development, and project management. </p>
+              </div>
+			      </li>
+            <li>
+              <div class="timeline-item">
+                <h4>University of Colorado Law School</h4>
+              </div>
+              <div class="timeline-description">
+                <h4>J.D. (incomplete)</h4>
+                <p>I got halfway through law school and decided being a whitewater guide was more what I was looking for. I mention it because it was one of the best decisions I ever made! Sometimes, you need to quit. </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-item">
+                <h4>University of Illinois</h4>
+              </div>
+              <div class="timeline-description">
+                <h4>B.A. in Creative Writing</h4>
+								<ul>
+									<li>Phi Kappa Phi National Honor Society</li>
+									<li>Golden Key International Honor Society</li>
+								</ul>
+              </div>
+            </li>
+			    </ul>
+			  </div>
+			</div>
 			<footer>
 				<div class="darker">
 					<div class="container" id="contact">
