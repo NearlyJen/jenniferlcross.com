@@ -1,7 +1,7 @@
 /* Custom fonts and sizing */
 body {
 
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -11,17 +11,16 @@ h1 {
 }
 
 h2 {
-    
-    font-family: 'JimmyScript', serif;
-    margin-bottom: 10px;
-    font-size: 54px;
-    text-align: center;
+  font-family: 'JimmyScript', serif;
+  margin-bottom: 10px;
+  font-size: 54px;
+  text-align: center;
 }
 
 h3, h4  {
-	
+
 	font-family: 'JimmySans', sans-serif;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .timeline h4, .glyphtext {
@@ -43,150 +42,132 @@ h4.subtext {
 }
 
 .jumbotron {
-	
+
 	background: no-repeat center right fixed url("http://jenniferlcross.com/images/river.jpg");
 }
 
 .jumbotron .container h1 {
-
-    padding-bottom: 20px;
-    border-bottom: 1px solid #FFFFFF;
-    border-bottom-color: rgba(255,255,255,0.35);
-    display: inline-block;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: rgba(255,255,255,0.35);
+  display: inline-block;
 }
 
 .jumbotron .container > * {
-
-    text-align: center;
-    color: #FFFFFF;   
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .jumbotron .container {
-
-    position: relative;
-    top: 15%;
-    z-index: 4;
-    text-align: center;
+  position: relative;
+  top: 15%;
+  z-index: 4;
+  text-align: center;
 }
 
 #top, .overlay {
-
 	height: 100vh;
 }
 
 .jumbotron .overlay {
-
-    background-color: #444444;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    opacity: 0.4;
-    z-index: 2;
+  background-color: #444444;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.4;
+  z-index: 2;
 }
+
 /* navbar styling */
-.navbar  { 
-
-	border: 0px; 
-	background-color: #373d5c; 
-	position: absolute; 
-	top: 100%; 
-	right: 3%; 
-	width: 110px; 
-	z-index: 999; 
+.navbar  {
+	border: 0px;
+	background-color: #373d5c;
+	position: absolute;
+	top: 100%;
+	right: 3%;
+	width: 110px;
+	z-index: 999;
 }
 
-.navbar .navbar-collapse { 
-
-	padding: 0px; 
+.navbar .navbar-collapse {
+	padding: 0px;
 	max-height: none;
 }
 
-.navbar .navbar-nav { 
-
-	float: none; 
+.navbar .navbar-nav {
+	float: none;
 }
 
-.navbar-nav { 
-
+.navbar-nav {
 	margin: 0px;
 }
 
-.navbar .nav > li { 
-
-	display: block; 
-	float: none; 
+.navbar .nav > li {
+	display: block;
+	float: none;
 	height: 80px;
-} 
+}
 
-.navbar .nav > li a { 
-
-	display: block;  
-	height: 80px; 
-	text-align: center; 
-	padding-top: 30px; 
-	font-weight: 600; 
-	color: #FFFFFF; 
+.navbar .nav > li a {
+	display: block;
+	height: 80px;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: 600;
+	color: #FFFFFF;
 	font-family: "Open Sans", sans-serif;
 }
 
-.navbar .nav > li a:hover, .navbar .nav > li a:focus { 
-
-	color: #ffffff; 
+.navbar .nav > li a:hover, .navbar .nav > li a:focus {
+	color: #ffffff;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
-
-	background-color: #dce0e0; 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #dce0e0;
 	color: #333 !important;
 }
 
-.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { 
-	
-	background-color: #373d5c; 
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+	background-color: #373d5c;
 }
 
-.fixed .navbar  { 
-	
-	position: fixed; top: 90px; 
+.fixed .navbar  {
+	position: fixed; top: 90px;
 }
 
 /* Every section is a container */
 .container {
-
-    max-width: 1280px; 
-	padding: 60px 120px; 
+  max-width: 1280px;
+	padding: 85px 120px;
 }
 
 /* section backgrounds*/
 .off-white {
-
 	background-color: #dce0e0;
 }
 
 .darker {
-
 	background-color: #373d5c;
 }
 
 /*so the text color in the contact section can be seen */
 #contact .subtext, #contact h2 {
-
 	color: #d7dbd7;
 }
 
 /* about me image...not quite right yet */
 .jenimg {
-	
+
 	shape-outside: circle(50%);
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-color: #373d5c;
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: #373d5c;
 	border-radius: 50%;
-    margin: 20px;
-    border: 5px solid #373d5c;
+  margin: 20px;
+  border: 5px solid #373d5c;
 }
 
 .about {
@@ -194,7 +175,6 @@ h4.subtext {
 }
 
 hr {
-	
 	border-top: 1px solid #d1d1d1 !important;
 }
 
@@ -233,13 +213,13 @@ hr {
 }
 
 .timeline:before {
-    content: "";
-    position: absolute;
-    width: 1px;
-    left: 25%;
-    top: -10px;
-    bottom: -30px;
-    background-color: #d1d1d1;
+  content: "";
+  position: absolute;
+  width: 1px;
+  left: 25%;
+  top: -10px;
+  bottom: -30px;
+  background-color: #d1d1d1;
 }
 
 .timeline > li {
@@ -316,105 +296,80 @@ hr {
   list-style-type: disc;
 }
 
-/*	.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-	}
-
-	@keyframes blink{
-	    0% { opacity:1; }
-	    50% { opacity:0; }
-	    100% { opacity:1; }
-	}
-
-	@-webkit-keyframes blink{
-	    0% { opacity:1; }
-	    50% { opacity:0; }
-	    100% { opacity:1; }
-	}
-	
-	@-moz-keyframes blink{
-	    0% { opacity:1; }
-	    50% { opacity:0; }
-	    100% { opacity:1; }
-	}*/
-
-
 
 /* Media Queries!! */
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 	.jumbotron:before {
 		bottom: 100px;
 		left: 20px;
 		right: 20px;
-		top: 20px;		
+		top: 20px;
 	}
 
-	.jumbotron .container { 
-		top: 20%; 
-		padding-top: 0px; 
+	.jumbotron .container {
+		top: 20%;
+		padding-top: 0px;
 	}
 
-	.jumbotron .scroll-down { 
-		width: 100%; 
-		right: 0px; 
-	}
-	
-	.navbar  { 
-		left: 0px; 
-		width: 100%; 
+	.jumbotron .scroll-down {
+		width: 100%;
+		right: 0px;
 	}
 
-	.navbar .nav > li { 
-		height: 60px; 
+	.navbar  {
+		left: 0px;
+		width: 100%;
 	}
 
-	.navbar .nav > li a { 
-		height: 60px; 
-		text-align: center; 
-		padding-top: 20px; 
-		font-weight: 600; 
-		color: #FFFFFF; 
-	}
-	
-	.fixed .navbar { 
-		top: 0px; 
-	}
-	
-	.container { 
-		padding: 60px 20px; 
-		min-width: 280px; 
-	}
-	
-	#about .row * { 
-		text-align: center; 
+	.navbar .nav > li {
+		height: 60px;
 	}
 
-	#contact { 
-		padding-bottom: 60px; 
+	.navbar .nav > li a {
+		height: 60px;
+		text-align: center;
+		padding-top: 20px;
+		font-weight: 600;
+		color: #FFFFFF;
 	}
 
-	#contact a .icon { 
-		float: left; 
-		margin-right: 10px; 
+	.fixed .navbar {
+		top: 0px;
+	}
+
+	.container {
+		padding: 60px 20px;
+		min-width: 280px;
+	}
+
+	#about .row * {
+		text-align: center;
+	}
+
+	#contact {
+		padding-bottom: 60px;
+	}
+
+	#contact a .icon {
+		float: left;
+		margin-right: 10px;
 	}
 
 
-/* these are only a test, not sure the webkit stuff is neecssary */
+/* these are only a test, not sure the webkit stuff is necessary */
 @media only screen and (orientation: portrait) and (max-width: 767px)  {
-    .jumbotron {
-      -webkit-background-size: auto 150%;
-      background-attachment: scroll;
+  .jumbotron {
+    -webkit-background-size: auto 150%;
+    background-attachment: scroll;
     }
 }
 @media only screen and (orientation: landscape) and (max-width: 767px)  {
-
-    .jumbotron {
-      -webkit-background-size: 150% auto;
-      background-attachment: scroll;
+  .jumbotron {
+    -webkit-background-size: 150% auto;
+    background-attachment: scroll;
     }
-	
-	.jumbotron .lead { display: none; }
+
+	.jumbotron .lead {
+    display: none;
+  }
 }
