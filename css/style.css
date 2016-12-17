@@ -216,7 +216,7 @@ hr {
   content: "";
   position: absolute;
   width: 1px;
-  left: 25%;
+  left: 35%;
   top: -10px;
   bottom: -30px;
   background-color: #d1d1d1;
@@ -236,7 +236,7 @@ hr {
 }
 
 .timeline > li .timeline-item {
-  width: 25%;
+  width: 35%;
   padding-left: 15px;
   padding-right: 15px;
   float: left;
@@ -275,7 +275,7 @@ hr {
 }
 
 .timeline > li .timeline-description {
-  width: 70%;
+  width: 60%;
   margin-left: 5%;
   padding-left: 25px;
   padding-right: 25px;
