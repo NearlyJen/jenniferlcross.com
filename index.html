@@ -1,108 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-  	<meta charset="UTF-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
- 		<title>Jennifer Cross | CV</title>
- 		<!-- Favicon-->
- 		<link rel="icon" type="image/png" href="images/favicon.png">
+  <html lang="en">
+		<head>
+  	  <meta charset="UTF-8">
+  	  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 			<title>Jennifer Cross | CV</title>
+ 			<!-- Favicon-->
+ 			<link rel="icon" type="image/png" href="images/favicon.png">
 
-        <!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+			<!-- jQuery library -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
-		<!-- Latest compiled JavaScript -->
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+			<!-- Latest compiled JavaScript -->
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+			<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
-		<!-- My stylesheets -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/JimmyScript-Regular.css">
-		<link rel="stylesheet" type="text/css" href="css/JimmyScript-Bold.css">
-		<link rel="stylesheet" type="text/css" href="css/JimmySans-Regular.css">
-		<link rel="stylesheet" type="text/css" href="css/JimmySans-Bold.css">
-		<link rel="stylesheet" type="text/css" href="css/portfolio.jquery.css">
-		<script src="portfolio.jquery.js"></script>
-		<script src="typed.js"></script>
+			<!-- My stylesheets -->
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<link rel="stylesheet" type="text/css" href="css/JimmyScript-Regular.css">
+			<link rel="stylesheet" type="text/css" href="css/JimmyScript-Bold.css">
+			<link rel="stylesheet" type="text/css" href="css/JimmySans-Regular.css">
+			<link rel="stylesheet" type="text/css" href="css/JimmySans-Bold.css">
+			<link rel="stylesheet" type="text/css" href="css/portfolio.jquery.css">
+			<script src="portfolio.jquery.js"></script>
+			<script src="typed.js"></script>
 
-		<!-- closes the mobile navbar on click  -->
-		<script type="text/javascript">
-			$(document).ready(function () {
-			  $(".navbar-nav li a").click(function(event) {
-			    $(".navbar-collapse").collapse('hide');
-			  });
-			});
-		</script>
-		<script>
-			$(document).ready(function(){
-			  // Add smooth scrolling to all links
-			  $("a").on('click', function(event) {
+			<!-- closes the mobile navbar on click  -->
+			<script type="text/javascript">
+				$(document).ready(function () {
+				  $(".navbar-nav li a").click(function(event) {
+				    $(".navbar-collapse").collapse('hide');
+				  });
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+				  // Add smooth scrolling to all links
+				  $("a").on('click', function(event) {
 
-			    // Make sure this.hash has a value before overriding default behavior
-			    if (this.hash !== "") {
-			      // Prevent default anchor click behavior
-			      event.preventDefault();
+				    // Make sure this.hash has a value before overriding default behavior
+				    if (this.hash !== "") {
+				      // Prevent default anchor click behavior
+				      event.preventDefault();
 
-			      // Store hash
-			      var hash = this.hash;
+				      // Store hash
+				      var hash = this.hash;
 
-			      // Using jQuery's animate() method to add smooth page scroll
-			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-			      $('html, body').animate({
-			        scrollTop: $(hash).offset().top
-			      }, 800, function(){
+				      // Using jQuery's animate() method to add smooth page scroll
+				      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				      $('html, body').animate({
+				        scrollTop: $(hash).offset().top
+				      }, 800, function(){
 
-			        // Add hash (#) to URL when done scrolling (default click behavior)
-			        window.location.hash = hash;
-			      });
-			    } // End if
-			  });
-			});
-		</script>
-		<script>
-      $(document).ready(function() {
-        $('.thumbs').portfolio({
-          cols: 2,
-          transition: 'slideDown'
-        });
-      });
-    </script>
-		<script>
-		  $(function(){
-		    $("#top h3").typed({
-		      strings: ["^1000Web Developer", "^1000Librarian", "^1000Part-Time Vagabond", "^1000Nice to meet you.^3000"],
-		      typeSpeed: 40,
-		      loop: true,
-		      backSpeed: 30,
-		      showCursor: false
+				        // Add hash (#) to URL when done scrolling (default click behavior)
+				        window.location.hash = hash;
+				      });
+				    } // End if
+				  });
+				});
+			</script>
+			<script>
+		    $(document).ready(function() {
+		      $('.thumbs').portfolio({
+		        cols: 2,
+		        transition: 'slideDown'
+		      });
 		    });
-		  });
-		</script>
-	</head>
-	<body data-spy="scroll" data-target="#navbar-jen" class="fixed">
-		<div class="container-fluid">
-			<div id="top" class="jumbotron">
-				<div class="container">
-					<h1>Jennifer Cross</h1>
-					<h3 class="lead">Nice to meet you.</h3>
+	    </script>
+			<script>
+			  $(function(){
+			    $("#top h3").typed({
+			      strings: ["^1000Web Developer", "^1000Librarian", "^1000Part-Time Vagabond", "^1000Nice to meet you.^3000"],
+			      typeSpeed: 40,
+			      loop: true,
+			      backSpeed: 30,
+			      showCursor: false
+			    });
+			  });
+			</script>
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-75295473-1', 'auto');
+			  ga('send', 'pageview');
+	    </script>
+		</head>
+		<body data-spy="scroll" data-target="#navbar-jen" class="fixed">
+			<div class="container-fluid">
+				<div id="top" class="jumbotron">
+					<div class="container">
+						<h1>Jennifer Cross</h1>
+						<h3 class="lead">Nice to meet you.</h3>
+					</div>
+					<div class="overlay"></div>
 				</div>
-				<div class="overlay"></div>
-			</div>
-			<div class="container" id="about">
-				<h2>Profile</h2>
-				<h4 class="subtext">I'm a Web Developer and Librarian</h4>
-				<hr>
+				<div class="container" id="about">
+					<h2>Profile</h2>
+					<h4 class="subtext">I'm a Web Developer and Librarian</h4>
+					<hr>
 					<img src="images/jen.jpg" class="jenimg" alt="Jennifer Cross">
-				<div class="about">
-					<h4>ABOUT ME</h4>
-					<p>I define myself less by what I do than what it is I am searching for...or rather, that I search. I search for people who make me smile, or need my help, or both. I search for places where I feel most myself, for perfect poutine, a good night's sleep, and a way to keep my son this age forever.</p>
-					<h4>STATUS</h4>
-					<p> I've worked in teaching, web design/web-mistressing, librarianship, and event planning. I've recently completed studying full-stack web development at DevBootcamp and will be looking for work in the Chicago area, summer of 2016.</p>
+					<div class="about">
+						<h4>ABOUT ME</h4>
+						<p>I’m the Web Services Manager for RUSA and ASCLA, two divisions of the American Library Association. In this role I have a variety of responsibilities, including: developing and maintaining multiple websites, digital content and database management, and shaping digital marketing strategy. I'm also the Online Learning Coordinator.</p>
+
+						<p>Before joining the ALA, I worked in private and public education as a librarian, web developer, and programming/technology teacher. I was also lucky enough to spend four years co-organizing an annually sold-out TEDx conference.</p>
+
+						<p>I believe in serving my community, that details are vitally important, and that Firefly was the best television show ever created. When I'm not working, you'll probably find me in my garden where I grow both flowers and vegetables, admittedly with mixed results. I may be talking to the chickens, as well. </p>
+					</div>
 				</div>
-			</div>
-			<div>
 				<div class="container" id="portfolio">
 					<h2>Portfolio</h2>
 					<h4 class="subtext">Things I've worked on.</h4>
@@ -119,10 +129,10 @@
 				        <span class="description">Puget Sound Independent Schools Website</span></a>
 				      </li>
 	            <li><a href="#thumb3" class="thumbnail" style="background-image: url('images/tedx.gif')">
-	                <span class="description">TEDxEastsidePrep Website</span></a>
+	              <span class="description">TEDxEastsidePrep Website</span></a>
 	            </li>
 	            <li><a href="#thumb4" class="thumbnail" style="background-image: url('images/eps.JPG')">
-	                <span class="description">Eastside Preparatory School Website</span></a>
+	              <span class="description">Eastside Preparatory School Website</span></a>
 	            </li>
 				    </ul>
 		        <div class="portfolio-content">
@@ -150,204 +160,208 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container" id="experience">
-				<h2>Experience</h2>
-				<h4 class="subtext">People I've worked with over the last decade.</h4>
-				<hr>
-				<ul class="timeline">
-					<li>
-            <div class="timeline-item">
-              <h4>American Library Association</h4>
-							<h5>2016 - present</h5>
-            </div>
-            <div class="timeline-description">
-              <h4>Web Services Manager, ASCLA / RUSA</h4>
-              <h5><span class="glyphicon glyphicon-map-marker"></span>Chicago , IL</h5>
-            </div>
-          </li>
-	        <li>
-            <div class="timeline-item">
-              <h4>Escuela Campo Alegre</h4>
-							<h5>2015 - 2016</h5>
-            </div>
-            <div class="timeline-description">
-              <h4>Technology Teacher</h4>
-              <h5><span class="glyphicon glyphicon-map-marker"></span>Caracas,Venezuela</h5>
-							<ul>
-								<li>Taught middle and high school web design and technology courses</li>
-								<li>Provided on-demand tech support to the school community</li>
-								<li>Supported and educated faculty in technology use and integration</li>
-							</ul>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-item">
-              <h4>Eastside Preparatory School</h4>
-							<h5>2011 - 2015</h5>
-            </div>
-            <div class="timeline-description">
-              <h4>Web Developer, Technology Teacher</h4>
-              <h5><span class="glyphicon glyphicon-map-marker"></span>Kirkland, WA</h5>
-							<ul>
-								<li>Designed, built, and managed the school WordPress multi-site ecosystem</li>
-								<li>Taught middle and high school web design and technology courses</li>
-								<li>Provided on-demand tech support to the school community</li>
-								<li>Led summer trips and taught camps in Programming and the Makerspace</li>
-							</ul>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-item">
-              <h4>TEDxEastsidePrep</h4>
-							<h5>2011 - 2015</h5>
-            </div>
-            <div class="timeline-description">
-              <h4>Event Co-Organizer, Web Developer</h4>
-              <h5><span class="glyphicon glyphicon-map-marker"></span>Seattle, WA</h5>
-							<h5><a href="https://www.ted.com/profiles/844882" target="_blank" ><span class="glyphicon glyphicon-link"></span><span class="glyphtext">TED Profile</span></a></h5>
-							<ul>
-								<li>Planned, organized, and delivered an annually “sold-out” professional development conference for educators</li>
-								<li>Created and managed web and social media presence</li>
-							</ul>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-item">
-              <h4>The French American School of Puget Sound</h4>
-							<h5>2008 - 2010</h5>
-            </div>
-            <div class="timeline-description">
-              <h4>School Librarian, Technology Support</h4>
-              <h5><span class="glyphicon glyphicon-map-marker"></span>Mercer Island, WA</h5>
-							<ul>
-								<li>Standardized the physical and database organization of a large bilingual library collection</li>
-								<li>Supported and educated faculty in technology use and integration</li>
-							</ul>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-item">
-              <h4>New Orleans Public Schools</h4>
-							<h5>2006 - 2008</h5>
-            </div>
-            <div class="timeline-description">
-              <h4>School Librarian, Technology Teacher</h4>
-              <h5><span class="glyphicon glyphicon-map-marker"></span>New Orleans, LA</h5>
-							<ul>
-								<li>Taught 650+ students in weekly library and technology classes</li>
-								<li>Rebuilt library database after Katrina-caused total loss of data</li>
-							</ul>
-            </div>
-          </li>
-			  </ul>
-			</div>
-			<div>
-				<div class="container" id="education">
-					<h2>Education</h2>
-					<h4 class="subtext">I liked school. So I kept on going.</h4>
+				<div class="container" id="experience">
+					<h2>Experience</h2>
+					<h4 class="subtext">People I've worked with over the last decade.</h4>
 					<hr>
 					<ul class="timeline">
-            <li>
-              <div class="timeline-item">
-                <h4>Dev Bootcamp</h4>
-              </div>
-              <div class="timeline-description">
-                <h4>Full-Stack Web Development</h4>
-                <p>Dev Bootcamp is a 19-week immersive curriculum focusing on Ruby, JavaScript, Ruby on Rails, common JavaScript libraries, SQL, HTML and CSS, as well as pair programming, agile and test-driven development. The program also integrates team skills like communication, empathy and effective feedback.</p>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-item">
-                <h4>Texas Woman's University</h4>
-              </div>
-              <div class="timeline-description">
-                <h4>Master's Degree in Library & Information Science</h4>
-                <p>Studied information architecture and information seeking behaviors in both digital and traditional service arenas. </p>
-                <ul>
-									<li>Beta Phi Mu International Honor Society</li>
-									<li>Golden Key International Honor Society</li>
+						<li>
+	            <div class="timeline-item">
+	              <h4>American Library Association</h4>
+								<h5>2016 - present</h5>
+	            </div>
+	            <div class="timeline-description">
+	              <h4>Web Services Manager, ASCLA / RUSA</h4>
+	              <h5><span class="glyphicon glyphicon-map-marker"></span>Chicago , IL</h5>
+	              <ul>
+									<li>Developed and maintained WordPress and Drupal websites</li>
+									<li>Digital content and database management</li>
+									<li>Online learning coordination</li>
 								</ul>
-							</div>
-            </li>
-            <li>
-              <div class="timeline-item">
-                <h4>ITI - Information Technology Institute</h4>
-              </div>
-              <div class="timeline-description">
-                <h4>Post-Graduate Diploma In Applied Information Technology</h4>
-                <p>ITI is what Bootcamps looked like 15 years ago. Full-time. 9 month, post graduate program in software and database development, and project management. </p>
-              </div>
-			      </li>
-            <li>
-              <div class="timeline-item">
-                <h4>University of Colorado Law School</h4>
-              </div>
-              <div class="timeline-description">
-                <h4>J.D. (incomplete)</h4>
-                <p>I got halfway through law school and decided being a whitewater guide was more what I was looking for. I mention it because it was one of the best decisions I ever made! Sometimes, you need to quit. </p>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-item">
-                <h4>University of Illinois</h4>
-              </div>
-              <div class="timeline-description">
-                <h4>B.A. in Creative Writing</h4>
+	            </div>
+	          </li>
+		        <li>
+	            <div class="timeline-item">
+	              <h4>Escuela Campo Alegre</h4>
+								<h5>2015 - 2016</h5>
+	            </div>
+	            <div class="timeline-description">
+	              <h4>Technology Teacher</h4>
+	              <h5><span class="glyphicon glyphicon-map-marker"></span>Caracas,Venezuela</h5>
 								<ul>
-									<li>Phi Kappa Phi National Honor Society</li>
-									<li>Golden Key International Honor Society</li>
+									<li>Taught middle and high school web design and technology courses</li>
+									<li>Provided on-demand tech support to the school community</li>
+									<li>Supported and educated faculty in technology use and integration</li>
 								</ul>
-              </div>
-            </li>
-			    </ul>
-			  </div>
-			</div>
-			<footer>
-				<div class="darker">
-					<div class="container" id="contact">
-						<h2>Contact Me</h2>
-						<h4 class="subtext">I can make anything happen through sheer force of will and resourcefulness. <br>And I can do it in style.</h4>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="timeline-item">
+	              <h4>Eastside Preparatory School</h4>
+								<h5>2011 - 2015</h5>
+	            </div>
+	            <div class="timeline-description">
+	              <h4>Web Developer, Technology Teacher</h4>
+	              <h5><span class="glyphicon glyphicon-map-marker"></span>Kirkland, WA</h5>
+								<ul>
+									<li>Designed, built, and managed the school WordPress multi-site ecosystem</li>
+									<li>Taught middle and high school web design and technology courses</li>
+									<li>Provided on-demand tech support to the school community</li>
+									<li>Led summer trips and taught camps in Programming and the Makerspace</li>
+								</ul>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="timeline-item">
+	              <h4>TEDxEastsidePrep</h4>
+								<h5>2011 - 2015</h5>
+	            </div>
+	            <div class="timeline-description">
+	              <h4>Event Co-Organizer, Web Developer</h4>
+	              <h5><span class="glyphicon glyphicon-map-marker"></span>Seattle, WA</h5>
+								<h5><a href="https://www.ted.com/profiles/844882" target="_blank" ><span class="glyphicon glyphicon-link"></span><span class="glyphtext">TED Profile</span></a></h5>
+								<ul>
+									<li>Planned, organized, and delivered an annually “sold-out” professional development conference for educators</li>
+									<li>Created and managed web and social media presence</li>
+								</ul>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="timeline-item">
+	              <h4>The French American School of Puget Sound</h4>
+								<h5>2008 - 2010</h5>
+	            </div>
+	            <div class="timeline-description">
+	              <h4>School Librarian, Technology Support</h4>
+	              <h5><span class="glyphicon glyphicon-map-marker"></span>Mercer Island, WA</h5>
+								<ul>
+									<li>Standardized the physical and database organization of a large bilingual library collection</li>
+									<li>Supported and educated faculty in technology use and integration</li>
+								</ul>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="timeline-item">
+	              <h4>New Orleans Public Schools</h4>
+								<h5>2006 - 2008</h5>
+	            </div>
+	            <div class="timeline-description">
+	              <h4>School Librarian, Technology Teacher</h4>
+	              <h5><span class="glyphicon glyphicon-map-marker"></span>New Orleans, LA</h5>
+								<ul>
+									<li>Taught 650+ students in weekly library and technology classes</li>
+									<li>Rebuilt library database after Katrina-caused total loss of data</li>
+								</ul>
+	            </div>
+	          </li>
+				  </ul>
+				</div>
+				<div>
+					<div class="container" id="education">
+						<h2>Education</h2>
+						<h4 class="subtext">I liked school. So I kept on going.</h4>
 						<hr>
-						<div class="row">
-							<div class="col-md-6 col-sm-12 col-xs-12">
-								<a class="footlink" href="https://www.linkedin.com/in/nearlyjen" target="_blank"><img src="images/linkedin.png" width="60" alt="linkedin"> https://www.linkedin.com/in/nearlyjen</a>
+						<ul class="timeline">
+	            <li>
+	              <div class="timeline-item">
+	                <h4>Dev Bootcamp</h4>
+	              </div>
+	              <div class="timeline-description">
+	                <h4>Full-Stack Web Development</h4>
+	                <p>Dev Bootcamp is a 19-week immersive curriculum focusing on Ruby, JavaScript, Ruby on Rails, common JavaScript libraries, SQL, HTML and CSS, as well as pair programming, agile and test-driven development. The program also integrates team skills like communication, empathy and effective feedback.</p>
+	              </div>
+	            </li>
+	            <li>
+	              <div class="timeline-item">
+	                <h4>Texas Woman's University</h4>
+	              </div>
+	              <div class="timeline-description">
+	                <h4>Master's Degree in Library & Information Science</h4>
+	                <p>Studied information architecture and information seeking behaviors in both digital and traditional service arenas. </p>
+	                <ul>
+										<li>Beta Phi Mu International Honor Society</li>
+										<li>Golden Key International Honor Society</li>
+									</ul>
+								</div>
+	            </li>
+	            <li>
+	              <div class="timeline-item">
+	                <h4>ITI - Information Technology Institute</h4>
+	              </div>
+	              <div class="timeline-description">
+	                <h4>Post-Graduate Diploma In Applied Information Technology</h4>
+	                <p>ITI is what Bootcamps looked like 15 years ago. Full-time. 9 month, post graduate program in software and database development, and project management. </p>
+	              </div>
+				      </li>
+	            <li>
+	              <div class="timeline-item">
+	                <h4>University of Colorado Law School</h4>
+	              </div>
+	              <div class="timeline-description">
+	                <h4>J.D. (incomplete)</h4>
+	                <p>I got halfway through law school and decided being a whitewater guide was more what I was looking for. I mention it because it was one of the best decisions I ever made! Sometimes, you need to quit. </p>
+	              </div>
+	            </li>
+	            <li>
+	              <div class="timeline-item">
+	                <h4>University of Illinois</h4>
+	              </div>
+	              <div class="timeline-description">
+	                <h4>B.A. in Creative Writing</h4>
+									<ul>
+										<li>Phi Kappa Phi National Honor Society</li>
+										<li>Golden Key International Honor Society</li>
+									</ul>
+	              </div>
+	            </li>
+				    </ul>
+				  </div>
+				</div>
+				<footer>
+					<div class="darker">
+						<div class="container" id="contact">
+							<h2>Contact Me</h2>
+							<h4 class="subtext">I can make anything happen through sheer force of will and resourcefulness. <br>And I can do it in style.</h4>
+							<hr>
+							<div class="row">
+								<div class="col-md-6 col-sm-12 col-xs-12">
+									<a class="footlink" href="https://www.linkedin.com/in/nearlyjen" target="_blank"><img src="images/linkedin.png" width="60" alt="linkedin"> https://www.linkedin.com/in/nearlyjen</a>
+								</div>
+								<div class="col-md-6 col-sm-12 col-xs-12">
+									<a class="footlink" href="https://github.com/NearlyJen" target="_blank"><img src="images/github.png" width="60" alt='GitHub'> https://github.com/NearlyJen</a>
+								</div>
 							</div>
-							<div class="col-md-6 col-sm-12 col-xs-12">
-								<a class="footlink" href="https://github.com/NearlyJen" target="_blank"><img src="images/github.png" width="60" alt='GitHub'> https://github.com/NearlyJen</a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<span class="glyphicon glyphicon-copyright-mark copyright"><span class="glyphtext"> 2016 Jennifer Cross</span></span>
+							<div class="row">
+								<div class="col-md-12">
+									<span class="glyphicon glyphicon-copyright-mark copyright"><span class="glyphtext"> 2016 Jennifer Cross</span></span>
+								</div>
 							</div>
 						</div>
 					</div>
+				</footer>
+				<nav class="navbar navbar-default" id="navbar-jen" role="navigation">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-jen-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 				</div>
-			</footer>
-			<nav class="navbar navbar-default" id="navbar-jen" role="navigation">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-jen-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-jen-collapse">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#top" class="glyphicon glyphicon-plus plus"></a></li>
-						<li><a href="#about">About Me</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#experience">Experience</a></li>
-						<li><a href="#education">Education</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</nav>
-		</div>
-	</body>
-</html>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-jen-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#top" class="glyphicon glyphicon-plus plus"></a></li>
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#education">Education</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</body>
+	</html>
